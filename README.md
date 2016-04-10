@@ -14,7 +14,7 @@ lbaf
 ## Usage
 * 1. setup line bot api And set CallBackURL at webroot/line_callback.php 
 * 2. edit config/lineBot.php & config/storage.php
-* 3. webroot/line_api.php is queuing MessageJson
+* 3. webroot/line_callback.php is queuing MessageJson
 * 4. cd bin; php lbaf_response_daemon.php ; this script process Message;
  - (Since I plan to change this php correctly deamonprogram, please wait for a while)
 
