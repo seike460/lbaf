@@ -6,7 +6,7 @@ lbaf
 * By you to edit the file of the app folder, easy product that is the goal that can be handled by the line bot api.
 
 ## Requirement
-* php & mysql & apache2
+* php5.4 & mysql & apache2
 * you can use my Ansible-playbook
  - https://github.com/seike460/playbook/blob/master/setup-lamp-php5.yml
 * (I want to use the more fast storage and more fast WebServer.Please wait.)
