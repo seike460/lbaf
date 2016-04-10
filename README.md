@@ -20,6 +20,14 @@ lbaf
 
 ## Install
 * git clone https://github.com/seike460/lbaf.git
+* please Create Table your Databases
+* CREATE TABLE line_api_json (
+  id int8 AUTO_INCREMENT,
+  json text,
+  constraint pkey_line_api_json primary key (
+    id
+  )
+);
 
 ## Contribution
 * Since the idea later, please wait a little.
