@@ -37,11 +37,9 @@ Please send a content
 	- if you send image
 		- return LINE Corporation LOGO
 	- if you send video 
-		- return LINE Corporation VIDEO On youtube
-		  But Not Proxy Line Server ...
-		  Please on Youtube ...
+		- return www.sample-videos.com's video
 	- if you send audio
-		- sorry in preparation now ...
+		- return www.sample-videos.com's audio
 	- if you send location
 		- return LINE Corporation Location
 	- if you send sticker
@@ -66,24 +64,24 @@ MSG;
 	}
 
 	/**
-	 * VIDEO Sample @todo put VIDEO LineServer And Link
+	 * VIDEO Sample
 	 */
 	public function sendSampleVideo () {
-		$post = $this->createPostAudio(
+		$post = $this->createPostVideo(
 			array($this->pContent['from']),
-			'https://www.youtube.com/watch?v=EIr3IWjZIfo',
+			'http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4',
 			'http://static.naver.jp/line_lp/img/logo.png'
 		);
 		return $this->apiPostRequest("events", $post);
 	}
 
 	/**
-	 * AUDIO Sample @todo put AUDIO LineServer And Link
+	 * AUDIO Sample
 	 */
 	public function sendSampleAudio () {
-		$post = $this->createPostImage(
+		$post = $this->createPostAudio(
 			array($this->pContent['from']),
-			'https://www.youtube.com/watch?v=EIr3IWjZIfo',
+			'http://www.sample-videos.com/audio/mp3/india-national-anthem.mp3',
 			'http://static.naver.jp/line_lp/img/logo.png'
 		);
 		return $this->apiPostRequest("events", $post);
@@ -98,7 +96,7 @@ MSG;
 			"35.6590249",
 			"139.7012843",
 			"ＬＩＮＥ株式会社",
-			"ＬＩＮＥ株式会社"
+			"ＬＩＮＥ株式会社",
 		);
 		return $this->apiPostRequest("events", $post);
 	}
@@ -111,8 +109,7 @@ MSG;
 			array($this->pContent['from']),
 			1,
 			1,
-			1,
-			'STKTXT'
+			1
 		);
 		return $this->apiPostRequest("events", $post);
 	}
