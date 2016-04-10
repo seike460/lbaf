@@ -8,8 +8,8 @@ lbaf
 ## Requirement
 * php & mysql & apache2
 * you can use my Ansible-playbook
-* https://github.com/seike460/playbook/blob/master/setup-lamp-php5.yml
-* (I want to use the more fast storage and Nginx.Please wait.)
+ - https://github.com/seike460/playbook/blob/master/setup-lamp-php5.yml
+* (I want to use the more fast storage and more fast WebServer.Please wait.)
 
 ## Usage
 * 1. setup line bot api And set CallBackURL at webroot/line_api.php 
