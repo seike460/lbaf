@@ -139,7 +139,7 @@ Class lbaf_content_core {
 		return $this->createPost($to, $content);
 	}
 
-	public function createPostSticker ($to, $stkid, $stkpkgid, $stkver, $stktxt) {
+	public function createPostSticker ($to, $stkid, $stkpkgid, $stkver) {
 		$content = array(
 			"contentType"		=>	lbaf_const::CTYPE_STICKER,
 			"toType"			=>	1,
