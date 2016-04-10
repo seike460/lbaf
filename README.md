@@ -12,7 +12,7 @@ lbaf
 * (I want to use the more fast storage and more fast WebServer.Please wait.)
 
 ## Usage
-* 1. setup line bot api And set CallBackURL at webroot/line_api.php 
+* 1. setup line bot api And set CallBackURL at webroot/line_callback.php 
 * 2. edit config/lineBot.php & config/storage.php
 * 3. webroot/line_api.php is queuing MessageJson
 * 4. cd bin; php lbaf_response_daemon.php ; this script process Message;
