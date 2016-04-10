@@ -16,7 +16,7 @@ lbaf
 * 2. edit config/lineBot.php & config/storage.php
 * 3. webroot/line_api.php is queuing MessageJson
 * 4. cd bin; php lbaf_response_daemon.php ; this script process Message;
-(Since I plan to change this php correctly deamonprogram, please wait for a while)
+ - (Since I plan to change this php correctly deamonprogram, please wait for a while)
 
 ## Install
 * git clone https://github.com/seike460/lbaf.git
