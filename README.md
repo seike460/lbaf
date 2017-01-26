@@ -1,4 +1,4 @@
-lbaf
+lbaf [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/seike460/lbaf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/seike460/lbaf/?branch=master)
 ====
 
 ## Description
